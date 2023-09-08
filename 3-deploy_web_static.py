@@ -15,7 +15,7 @@ from fabric.api import env
 import os.path
 # do_pack = __import__('1-pack_web_static').do_pack
 # do_deploy = __import__('2-do_deploy_web_static').do_deploy
-env.hosts = ['54.208.28.27', '52.91.101.127']
+env.hosts = ['54.208.28.27', '54.157.170.238']
 
 
 def do_pack():
