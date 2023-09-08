@@ -12,7 +12,7 @@ from fabric.api import reboot
 from fabric.api import run
 from fabric.api import sudo
 from fabric.api import env
-env.hosts = ['54.208.28.27', '52.91.101.127']
+env.hosts = ['54.208.28.27', '54.157.170.238']
 
 
 def do_deploy(archive_path):
